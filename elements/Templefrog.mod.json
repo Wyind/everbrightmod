@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "rarity": "EPIC",
+    "texture": "bonk",
+    "description": "KILN - Templefrog",
+    "creativeTab": {
+      "value": "CUSTOM:TheEverbrightMod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:templefrog"
+    },
+    "lengthInTicks": 6320,
+    "analogOutput": 0
+  }
+}

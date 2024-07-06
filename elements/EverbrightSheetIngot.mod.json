@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      },
+      {
+        "value": "CUSTOM:EverbrightSheet"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EverbrightIngot"
+    },
+    "name": "everbright_sheet_ingot",
+    "namespace": "mod"
+  }
+}

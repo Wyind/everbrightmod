@@ -1,0 +1,11 @@
+{
+  "templefrog": {
+    "subtitle": "subtitles.templefrog",
+    "sounds": [
+      {
+        "name": "the_everbright_mod:templefrog",
+        "stream": true
+      }
+    ]
+  }
+}

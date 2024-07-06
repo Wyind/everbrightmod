@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_everbright_mod:block/warped_stem_top",
+    "up": "the_everbright_mod:block/warped_stem_top",
+    "north": "the_everbright_mod:block/twilightlog",
+    "east": "the_everbright_mod:block/twilightlog",
+    "south": "the_everbright_mod:block/twilightlog",
+    "west": "the_everbright_mod:block/twilightlog",
+    "particle": "the_everbright_mod:block/warped_stem_top"
+  },
+  "render_type": "solid"
+}

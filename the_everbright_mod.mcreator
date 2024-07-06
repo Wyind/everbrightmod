@@ -1,0 +1,527 @@
+{
+  "mod_elements": [
+    {
+      "name": "Jasper",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jasper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/block/JasperBlock.java",
+          "src/main/resources/data/the_everbright_mod/loot_tables/blocks/jasper.json",
+          "src/main/resources/assets/the_everbright_mod/blockstates/jasper.json",
+          "src/main/resources/assets/the_everbright_mod/models/block/jasper.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/jasper.json"
+        ]
+      }
+    },
+    {
+      "name": "TheEverbrightMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_everbright_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EverbrightDust",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightDustItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightIngotItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Smelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "JasperCraft1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jasper_craft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/jasper_craft_1.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_sword.json",
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightPickaxeItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_axe.json",
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightShovelItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightHelmet",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_helmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightHelmetItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_helmet_boots.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_helmet_chestplate.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_helmet_helmet.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_helmet_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "SwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PickRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/pick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightHoe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightHoeItem.java",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightChestplateRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightSheet",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_sheet.json",
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightSheetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightSheetIngot",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_sheet_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_sheet_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightLeggins",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_leggins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_leggins.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightBoots",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TwilightLog",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twilight_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_everbright_mod/models/block/twilight_log.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/twilight_log.json",
+          "src/main/resources/data/the_everbright_mod/loot_tables/blocks/twilight_log.json",
+          "src/main/java/net/mcreator/theeverbrightmod/block/TwilightLogBlock.java",
+          "src/main/resources/assets/the_everbright_mod/blockstates/twilight_log.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everbright_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/worldgen/placed_feature/everbright_ore.json",
+          "src/main/resources/assets/the_everbright_mod/blockstates/everbright_ore.json",
+          "src/main/resources/assets/the_everbright_mod/models/block/everbright_ore.json",
+          "src/main/resources/data/the_everbright_mod/worldgen/configured_feature/everbright_ore.json",
+          "src/main/java/net/mcreator/theeverbrightmod/block/EverbrightOreBlock.java",
+          "src/main/resources/data/the_everbright_mod/loot_tables/blocks/everbright_ore.json",
+          "src/main/resources/data/the_everbright_mod/neoforge/biome_modifier/everbright_ore_biome_modifier.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Templefrog",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templefrog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_everbright_mod/models/item/templefrog.json",
+          "src/main/java/net/mcreator/theeverbrightmod/item/TemplefrogItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TwilightForest",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twilight_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/worldgen/placed_feature/twilight_forest_tree.json",
+          "src/main/resources/data/the_everbright_mod/worldgen/biome/twilight_forest.json",
+          "src/main/resources/data/the_everbright_mod/worldgen/configured_feature/twilight_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "EverbrightDimension",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everbright_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theeverbrightmod/item/EverbrightDimensionItem.java",
+          "src/main/java/net/mcreator/theeverbrightmod/world/dimension/EverbrightDimensionDimension.java",
+          "src/main/java/net/mcreator/theeverbrightmod/world/teleporter/EverbrightDimensionTeleporter.java",
+          "src/main/resources/data/the_everbright_mod/dimension/everbright_dimension.json",
+          "src/main/java/net/mcreator/theeverbrightmod/block/EverbrightDimensionPortalBlock.java",
+          "src/main/resources/assets/the_everbright_mod/blockstates/everbright_dimension_portal.json",
+          "src/main/resources/assets/the_everbright_mod/models/block/everbright_dimension_portal_ns.json",
+          "src/main/resources/data/the_everbright_mod/dimension_type/everbright_dimension.json",
+          "src/main/resources/assets/the_everbright_mod/models/item/everbright_dimension.json",
+          "src/main/java/net/mcreator/theeverbrightmod/world/teleporter/EverbrightDimensionPortalShape.java",
+          "src/main/resources/assets/the_everbright_mod/models/block/everbright_dimension_portal_ew.json"
+        ]
+      }
+    },
+    {
+      "name": "EverglowRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everglow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/recipes/everglow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ImBlue",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_everbright_mod/advancements/im_blue.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "templefrog",
+      "files": [
+        "templefrog"
+      ],
+      "category": "record",
+      "subtitle": "everbright"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:EverbrightOre",
+      "~CUSTOM:Jasper"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EverbrightOre",
+      "~CUSTOM:Jasper"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:TwilightLog"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
+      "~CUSTOM:TwilightForest"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Templefrog"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.LODESTONE",
+      "~Blocks.CONCRETE#11",
+      "~Blocks.GRASS"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.the_everbright_mod.everbright_helmet_helmet": "Everbright Helmet",
+      "item.the_everbright_mod.everbright_helmet_leggings": "Everbright Leggings",
+      "item.the_everbright_mod.templefrog": "Music Disc",
+      "item.the_everbright_mod.everbright_hoe": "Everbright Hoe",
+      "item.the_everbright_mod.everbright_dust": "Everbright Dust",
+      "item.the_everbright_mod.everbright_ingot": "Everbright Ingot",
+      "item.the_everbright_mod.everbright_shovel": "Everbright Shovel",
+      "block.the_everbright_mod.jasper": "Block of Everbright",
+      "item.the_everbright_mod.everbright_helmet_chestplate": "Everbright Chestplate",
+      "item.the_everbright_mod.everbright_sheet": "Everbright Sheet",
+      "subtitles.templefrog": "everbright",
+      "item.the_everbright_mod.everbright_pickaxe": "Everbright Axe",
+      "item.the_everbright_mod.everbright_dimension": "Everglow",
+      "block.the_everbright_mod.everbright_ore": "Everbright Ore",
+      "item_group.the_everbright_mod.the_everbright_mod": "The Everbright Mod",
+      "item.the_everbright_mod.everbright_sword": "Everbright Sword",
+      "block.the_everbright_mod.twilight_log": "Twilight Log",
+      "advancements.im_blue.descr": "Obtain a Full Set of Everbright Armor.",
+      "item.the_everbright_mod.everbright_axe": "Everbright Pickaxe",
+      "biome.the_everbright_mod.twilight_forest": "Twilight Forest",
+      "item.the_everbright_mod.everbright_helmet_boots": "Everbright Boots",
+      "item.the_everbright_mod.templefrog.desc": "KILN - Templefrog",
+      "advancements.im_blue.title": "I\u0027m Blue, Da Ba Dee Da Ba Di!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_everbright_mod",
+    "modName": "The Everbright Mod",
+    "version": "1.0.0",
+    "author": "Josh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "modElementsPackage": "net.mcreator.theeverbrightmod"
+  },
+  "mcreatorVersion": 202400118518
+}

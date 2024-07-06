@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_everbright_mod:block/637951523872600340",
+    "up": "the_everbright_mod:block/637951523872600340",
+    "north": "the_everbright_mod:block/637951523872600340",
+    "east": "the_everbright_mod:block/637951523872600340",
+    "south": "the_everbright_mod:block/637951523872600340",
+    "west": "the_everbright_mod:block/637951523872600340",
+    "particle": "the_everbright_mod:block/breakablebluejasper"
+  },
+  "render_type": "solid"
+}

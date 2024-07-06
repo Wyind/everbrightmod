@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_everbright_mod:item/12653074-blue-redstone-v-th-square-big_lrg-removebg-preview"
+  }
+}
